@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* for header */
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo h1{
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: oblique;
+    color: coral;
+}
+.si{
+    font-weight: 900;
+    font-style: italic;
+    color: honeydew;
+}
+/* header navigation */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+nav li{
+list-style-type: none;
+}
+nav a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 6px;
+    transition: background-color 2s;
+}
+nav a:hover{
+background-color: whitesmoke;
+}
+
+/*start aside*/
+
+aside h1{
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    text-emphasis: bold;
+}
+    aside img{
+    height: 650px;
+    width: 1340px;  
+
+}
+/* start main */
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+main .class1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .class1 a{
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+main .class1 a:hover{
+    background: #000;
+    color: #fff;
+}
+main .class1 p{
+    visibility: hidden;
+    font-family: 'Cormorant Upright', serif;
+}
+main section .class1 img:hover + p{
+    display: block;
+    visibility: visible;
+    border-bottom: 1px solid #000;
+    border-left: 3px dotted rgb(4, 92, 19);
+    border-right: 3px dotted rgb(4, 92, 19);
+}
+hr{
+    margin: 16px;
+}
+
+
+/* article */
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article img{
+    display: block;
+
+}
+main .class2 h1{
+    display: block;
+    font-weight: bolder;
+    text-emphasis: bold;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+main .class2 pre{
+    font-family: 'Cormorant Upright', serif;
+    display: block;
+}
+
+/* start footer */
+footer{
+    background-color: rgb(70, 54, 54);
+    height: 76px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+
+}
+footer li{
+    margin-top: 5px;
+}
+footer a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    margin: 6px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    color: blue;
+    margin-top: 15px;
+}
+
+
+
